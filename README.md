@@ -60,15 +60,3 @@
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?logo=adobephotoshop&logoColor=white)
 ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?logo=adobeillustrator&logoColor=white)
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?logo=Canva&logoColor=white)
-
----
-
-## 📊 GitHub Stats
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Hazem-Salama&show_icons=true&include_all_commits=true&theme=tokyonight" />
-  <img height="165" src="https://streak-stats.demolab.com?user=Hazem-Salama&theme=tokyonight" />
-</p>
-
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hazem-Salama&layout=compact&theme=tokyonight" />
-</p>
