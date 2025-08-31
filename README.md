@@ -1,5 +1,5 @@
 # Hi 👋 My name is Hazem Salama
-💻 UI/UX Designer | Full-Stack Developer | Future Cloud & DevOps Engineer  
+💻 Full-Stack Developer | Future Cloud & DevOps Engineer  
 
 ---
 
