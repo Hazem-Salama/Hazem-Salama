@@ -7,7 +7,7 @@
 
 - 🔭 My recent Project is [Qusah CRM Dashboard](b2b.qusahstore.com)
 
-- 🌱 I’m currently learning **C++, .Net, Boost**
+- 🌱 I’m currently learning **Java, BootSpring**
 
 - 🔭 I’m currently working on **Mo3an FinTech CRM**
 
