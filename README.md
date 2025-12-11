@@ -95,9 +95,10 @@ const hazem = {
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [**Qusah CRM**](https://b2b.qusahstore.com) | Enterprise B2B platform | Next.js, Node.js, MongoDB |
-| **Mo3an FinTech** | Financial technology CRM | React, .NET, PostgreSQL |
-| [**Portfolio**](https://hazemsalama.dev) | This very site | Next.js, Three.js, Framer Motion |
+| [**Qusah CRM**]| Enterprise B2B platform | Next.js, Node.js, MongoDB |
+| [**Sales Hero System**]| Enterprise Sales Management System | Next.js, Node.js, PostgeSQL |
+| [**Mo3an FinTech**] | Financial technology CRM | React, .NET, PostgreSQL |
+| [**EMT Inventory System**] | Emtyaz Inventory System | Next.js, .NET Code 9, SQL Server |
 
 ---
 
