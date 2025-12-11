@@ -32,10 +32,10 @@
 
 ```javascript
 const hazem = {
-  location: "Alexandria, Egypt",
+  location: "Brighton, United Kingdom",
   role: "Full Stack Software Engineer",
   focus: ["Fintech", "Enterprise CRM", "Scalable Architecture"],
-  currentlyBuilding: "Mo3an FinTech CRM",
+  currentlyBuilding: "EMT Inventory System",
   learning: "Java & Spring Boot ecosystem",
   funFact: "I optimize database queries for fun"
 };
