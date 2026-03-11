@@ -84,7 +84,7 @@ const hazem = {
 
 ```
 Stack    : Next.js 15 · React 19 · Tailwind CSS 4 · Shadcn UI · Node.js · TypeScript
-Role     : Team Lead & Full Stack Developer
+Role     : Team Lead & Lead Software Engineer
 Status   : Production
 ```
 
@@ -97,7 +97,7 @@ Multi-company ERP/CRM with granular RBAC, bilingual Arabic/English with RTL/LTR 
 
 ```
 Stack    : ASP.NET Core 9.0 · Next.js 16 · TypeScript · SQL Server
-Role     : Full Stack Developer
+Role     : Full Stack Software Engineer
 Status   : Production
 ```
 
@@ -110,7 +110,7 @@ Enterprise inventory management platform with batch/expiry tracking, bilingual A
 
 ```
 Stack    : Next.js 15 · Node.js · PostgreSQL · TypeScript
-Role     : Full Stack Developer
+Role     : Full Stack Software Engineer
 Status   : Delivered
 ```
 
@@ -123,7 +123,7 @@ Multi-tenant financial management platform for the Saudi market. Features RBAC f
 
 ```
 Stack    : React · Node.js · Sadq API · Wathq API
-Role     : Full Stack Developer
+Role     : Lead Software Engineer
 Status   : Production
 ```
 
@@ -136,7 +136,7 @@ Contract management CRM integrated with Saudi government digital services. Featu
 
 ```
 Stack    : Node.js · TypeScript · Cloud Functions v2 · Cloud Scheduler · BigQuery
-Role     : Lead Developer
+Role     : Lead Software Engineer
 Status   : Production
 ```
 
