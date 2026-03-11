@@ -1,5 +1,5 @@
 ```text
-     ___           ___肆          ___           ___           ___
+     ___           ___           ___           ___           ___
     /\__\         /\  \         /\__\         /\  \         /\__\
    /:/  /        /::\  \       /::|  |       /::\  \       /::|  |
   /:/__/        /:/\:\  \     /:|:|  |      /:/\:\  \     /:|:|  |
@@ -16,7 +16,7 @@
 
 # Hazem Salama
 
-**Full Stack Software Engineer**
+**Full Stack Software Engineer & Team Lead**
 
 *I don't just write code. I architect solutions that scale.*
 
@@ -33,10 +33,11 @@
 ```javascript
 const hazem = {
   location: "Brighton, United Kingdom",
-  role: "Full Stack Software Engineer",
-  focus: ["Fintech", "Enterprise CRM", "Scalable Architecture"],
-  currentlyBuilding: "EMT Inventory System",
-  learning: "Java & Spring Boot ecosystem",
+  role: "Full Stack Software Engineer & Team Lead",
+  education: "MSc Management of IT — University of Sussex (2026)",
+  focus: ["Fintech", "Enterprise CRM/ERP", "Data Pipelines", "Gov API Integration"],
+  markets: ["Saudi Arabia", "UAE", "Egypt", "United Kingdom"],
+  languages: ["English", "Arabic"],
   funFact: "I optimize database queries for fun"
 };
 ```
@@ -49,56 +50,97 @@ const hazem = {
 {
   "languages": {
     "primary": ["TypeScript", "JavaScript", "C#", "Python"],
-    "secondary": ["Java", "C++", "PHP"]
+    "secondary": ["PHP", "Java", "C++"]
   },
   "frontend": {
-    "frameworks": ["React", "Next.js", "React Native", "Angular", "Vue.js"],
-    "styling": ["Tailwind CSS", "Sass", "Framer Motion"]
+    "frameworks": ["React", "Next.js", "React Native"],
+    "styling": ["Tailwind CSS", "Shadcn UI", "Framer Motion"]
   },
   "backend": {
     "node": ["Express", "NestJS"],
-    "python": ["Django", "FastAPI"],
-    "dotnet": [".NET Core", "ASP.NET"],
-    "java": ["Spring Boot"]
+    "dotnet": ["ASP.NET Core"],
+    "python": ["Django"],
+    "php": ["Laravel"]
   },
   "databases": {
-    "sql": ["PostgreSQL", "MySQL", "SQL Server"],
-    "nosql": ["MongoDB", "Redis", "Cassandra"]
+    "sql": ["PostgreSQL", "SQL Server", "MySQL", "BigQuery"],
+    "nosql": ["MongoDB", "Redis"]
   },
   "cloud": {
-    "providers": ["AWS", "GCP", "Azure"],
-    "tools": ["Docker", "Kubernetes", "Nginx", "CI/CD"]
-  }
+    "providers": ["Google Cloud Platform", "AWS"],
+    "services": ["Cloud Functions", "Cloud Scheduler", "Secret Manager", "BigQuery"],
+    "tools": ["Docker", "CI/CD", "Nginx"]
+  },
+  "integrations": ["Salla API", "Sadq", "Wathq", "OAuth 2.0", "Webhooks"]
 }
-```
-
----
-
-## `$ ./achievements --highlight`
-
-```
-+--------------------------------------------------+
-|                  IMPACT METRICS                   |
-+--------------------------------------------------+
-|  API Response    |  800ms → 150ms   |  -81%      |
-|  Concurrent Users|  100,000+        |  Scaled    |
-|  System Uptime   |  99.99%          |  Achieved  |
-|  Deploy Time     |  2hrs → 15min    |  -87%      |
-|  Query Performance| 70% faster      |  Optimized |
-|  Security Breaches| 0               |  3+ years  |
-+--------------------------------------------------+
 ```
 
 ---
 
 ## `$ ls projects/`
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [**Qusah CRM**]| Enterprise B2B platform | Next.js, Node.js, MongoDB |
-| [**Sales Hero System**]| Enterprise Sales Management System | Next.js, Node.js, PostgeSQL |
-| [**Mo3an FinTech**] | Financial technology CRM | React, .NET, PostgreSQL |
-| [**EMT Inventory System**] | Emtyaz Inventory System | Next.js, .NET Code 9, SQL Server |
+### Sales Hero
+**Multi-Tenant B2B ERP/CRM for Middle East Sales Teams**
+
+```
+Stack    : Next.js 15 · React 19 · Tailwind CSS 4 · Shadcn UI · Node.js · TypeScript
+Role     : Team Lead & Full Stack Developer
+Status   : Production
+```
+
+Multi-company ERP/CRM with granular RBAC, bilingual Arabic/English with RTL/LTR switching, OTP passwordless auth, dark mode, PWA support, and Notion-style task management. Handles the full sales lifecycle from lead capture to invoicing across multiple tenants.
+
+---
+
+### EMT Cloud
+**Multi-Tenant Inventory & Operations Management System**
+
+```
+Stack    : ASP.NET Core 9.0 · Next.js 16 · TypeScript · SQL Server
+Role     : Full Stack Developer
+Status   : Production
+```
+
+Enterprise inventory management platform with batch/expiry tracking, bilingual Arabic/English RTL support, role-based access control, and advanced reporting. Built for businesses that need regulated inventory workflows and detailed operational analytics.
+
+---
+
+### Mo3an (معان)
+**Fintech CRM & Finance Platform**
+
+```
+Stack    : Next.js 15 · Node.js · PostgreSQL · TypeScript
+Role     : Full Stack Developer
+Status   : Delivered
+```
+
+Multi-tenant financial management platform for the Saudi market. Features RBAC for 5 user types, bilingual Arabic/English interface, automated PDF/Excel report generation, client portfolio management, and comprehensive audit logging.
+
+---
+
+### Qusah Contract Management System
+**Digital Contract & Compliance Platform — Saudi Government API Integration**
+
+```
+Stack    : React · Node.js · Sadq API · Wathq API
+Role     : Full Stack Developer
+Status   : Production
+```
+
+Contract management CRM integrated with Saudi government digital services. Features multi-guarantor contract workflows with Sadq for digital signatures and envelope management, Wathq for identity/document verification, client risk scoring engine, automated PDF generation for contracts and promissory notes, and a funding decision engine with installment calculations.
+
+---
+
+### Salla → BigQuery Data Pipeline
+**Automated ETL Pipeline for E-Commerce Analytics**
+
+```
+Stack    : Node.js · TypeScript · Cloud Functions v2 · Cloud Scheduler · BigQuery
+Role     : Lead Developer
+Status   : Production
+```
+
+Serverless data pipeline connecting 5 Salla e-commerce stores to a centralized BigQuery data warehouse. Incremental sync fetches only new orders, real-time webhooks catch cancellations and status changes instantly, and MERGE-based deduplication prevents duplicate records. Token refresh with mutex locking handles Salla's single-use refresh tokens. Fully automated — zero manual intervention post-deployment.
 
 ---
 
@@ -126,10 +168,12 @@ const hazem = {
 ┌─────────────────────────────────────────────┐
 │  STATUS: Available for opportunities        │
 │  PING: Usually responds within 24h          │
+│  MARKETS: UK · Saudi Arabia · UAE · Egypt   │
 │  INTERESTED IN:                             │
 │    → Senior/Lead Full Stack roles           │
 │    → Architecture & System Design           │
 │    → Fintech & Enterprise solutions         │
+│    → Data pipelines & integrations          │
 │    → Remote-first teams                     │
 └─────────────────────────────────────────────┘
 ```
